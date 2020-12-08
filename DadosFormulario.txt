@@ -1,0 +1,14 @@
+O formulário deve ter ao menos os seguintes dados:
+
+Nome (com input text)
+Usuario (com input text)
+Senha (com input text)
+Email (com um input especifico para email)
+Nascimento (com um input específico para data)
+Telefone (com input text)
+CPF (com input text)
+Cidade (com input text)
+CEP (com input text)
+UF (considerando apenas os estados da região sul e usando um select)
+Sexo (Masculino ou Feminino, com input do tipo radio)
+Salário (com input text)
