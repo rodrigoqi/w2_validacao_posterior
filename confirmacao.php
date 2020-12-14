@@ -37,38 +37,7 @@
 			<div class="row text-center">
 				<div class="col-md-12">
 					<?php
-						//Ler os dados vindos do formulário através da URL
-						//Colocar cada um deles dentro de uma variável
-						//Exibir com echo esses dados aqui dentro desta DIV
-						if(isset($_GET["nome"])){
-							$nome = $_GET["nome"];
-							$usuario = $_GET["usuario"];
-							$senha = $_GET["senha"];
-							$sexo = $_GET["sexo"];
-							$nascimento = $_GET["nascimento"];
-							$telefone = $_GET["telefone"];
-							$cpf = $_GET["cpf"];
-							$email = $_GET["email"];
-							$salario = $_GET["salario"];
-							$cidade = $_GET["cidade"];
-							$cep = $_GET["cep"];
-							$uf = $_GET["uf"];
-
-							echo "<br>Nome: $nome";
-							echo "<br>Nome de usuário: $usuario";
-							echo "<br>Senha: $senha";
-							echo "<br>Sexo: $sexo";
-							echo "<br>Nascimento: $nascimento";
-							echo "<br>Fone: $telefone";
-							echo "<br>CPF: $cpf";
-							echo "<br>E-mail: $email";
-							echo "<br>Salário: $salario";
-							echo "<br>Cidade: $cidade";
-							echo "<br>CEP: $cep";
-							echo "<br>UF: $uf";
-
-						}
-
+						require "carrega.php";
 					?>
 				</div>
 			</div>
